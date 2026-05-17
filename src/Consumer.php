@@ -32,8 +32,6 @@ class Consumer extends Worker
     /** @var AMQPChannel */
     protected $channel;
 
-    protected $currentJob;
-
     public function setContainer(Container $value): void
     {
         $this->container = $value;
